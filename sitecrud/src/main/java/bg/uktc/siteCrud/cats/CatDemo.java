@@ -16,6 +16,8 @@ public class CatDemo implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         System.out.println("its working");
+
+        System.out.println("Everything should be fine!!!!!!!");
         ownerService.createOwner(new CreateOwnerDTO().
                 setOwnerName("Daniel").setCatNames(List.of("Karaman", "Buba")))   ;
     }
